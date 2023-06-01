@@ -14,7 +14,7 @@
 1. Склонируйте репозиторий на ваш компьютер:
 
    ```bash
-   git clone https://github.com/your-username/youtube-downloader.git
+   git clone https://github.com/Okmorr/Youtube_load_videos.git
    ```
 
 2. Установите библиотеку `pytube`, выполнив следующую команду:
