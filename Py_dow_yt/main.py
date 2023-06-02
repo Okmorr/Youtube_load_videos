@@ -2,7 +2,8 @@ from pytube import YouTube
 
 
 def download_video(url):
-    url_dow = YouTube(url).streams.first().download('C:/Users/Us1/Desktop/video')
+    YouTube(url).streams.get_by_itag(22).download('C:/Users/Us1/Desktop/video')
+    url_dow = YouTube(url)
     return url_dow
 
 
