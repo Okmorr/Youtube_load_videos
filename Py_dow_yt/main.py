@@ -1,5 +1,7 @@
 from pytube import YouTube
+from tkinter import *
 
+root = Tk()
 
 def download_video(url):
     YouTube(url).streams.get_by_itag(22).download('C:/Users/Us1/Desktop/video')
@@ -14,3 +16,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    root.mainloop()
