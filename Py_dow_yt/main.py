@@ -36,11 +36,11 @@ def download_video(url):
     return url_dow
 
 def main():
-    # window = Tk()
-    # #url = input("Введите ссылку для скачаивания видео - ")
-    # window.geometry("800x460")
-    # Example(window)
-    # window.mainloop()
+    window = Tk()
+    #url = input("Введите ссылку для скачаивания видео - ")
+    window.geometry("800x460")
+    Example(window)
+    window.mainloop()
 
 
 if __name__ == "__main__":
